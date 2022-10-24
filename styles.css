@@ -1,0 +1,45 @@
+body{
+    background-image: url("./assets/noaa-ZVhm6rEKEX8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label, input, button{
+    margin: 5px;
+}
+
+.display-div, .display-giphy {
+    display: grid;
+    align-items: center;
+    background-color: white;
+    opacity: 0.6;
+    height: 210px;
+    width: 205px;
+    margin-top: 50px;
+
+}
+
+p {
+    margin: 0;
+    color: purple;
+    font-weight: 900;
+}
+
+.display-giphy, img{
+    background-color: transparent;
+    height: 210px;
+    width: 205px;
+}
